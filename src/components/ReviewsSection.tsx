@@ -21,12 +21,10 @@ export function ReviewsSection() {
               <blockquote><p>“{review.text}”</p></blockquote>
               <figcaption>
                 <span className="review-category">{review.category}</span>
-                <span className="review-origin">Avaliação pública · <time dateTime={review.date}>fev. 2025</time></span>
               </figcaption>
             </figure>
           ))}
         </div>
-        <p className="reviews-attribution">Trechos de avaliações públicas do Google, reproduzidos de um <a href={GOOGLE_REVIEWS.source} target="_blank" rel="noopener noreferrer">registro público</a>.</p>
 
         <div className="reviews-invitation">
           <div>

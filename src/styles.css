@@ -203,16 +203,13 @@
 .reviews-heading h2 { max-width: 640px; }
 .reviews-source-link { display: inline-flex; align-items: center; gap: 6px; color: var(--gold); font-size: 14px; white-space: nowrap; }
 .reviews-source-link svg { width: 16px; height: 16px; }
-.reviews-source-link:hover, .reviews-attribution a:hover { text-decoration: underline; }
+.reviews-source-link:hover { text-decoration: underline; }
 .reviews-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .salon-review { display: flex; flex-direction: column; padding: 28px; border-radius: 8px; border: 1px solid color-mix(in oklch, var(--cocoa-foreground) 18%, var(--cocoa)); background: color-mix(in oklch, var(--cocoa-foreground) 5%, var(--cocoa)); }
 .review-quote-icon { color: var(--gold); height: 26px; width: 26px; margin-bottom: 20px; }
 .salon-review blockquote { flex: 1; font-size: 17px; line-height: 1.75; overflow-wrap: anywhere; }
 .salon-review figcaption { display: grid; gap: 6px; border-top: 1px solid color-mix(in oklch, var(--cocoa-foreground) 15%, var(--cocoa)); margin-top: 24px; padding-top: 18px; }
 .review-category { color: var(--gold); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; }
-.review-origin, .reviews-attribution { color: color-mix(in oklch, var(--cocoa-foreground) 70%, var(--cocoa)); font-size: 12px; }
-.reviews-attribution { margin-top: 20px; line-height: 1.7; }
-.reviews-attribution a { text-decoration: underline; text-underline-offset: 3px; }
 .reviews-invitation { display: flex; align-items: center; justify-content: space-between; gap: 28px; border-top: 1px solid color-mix(in oklch, var(--cocoa-foreground) 20%, var(--cocoa)); margin-top: 40px; padding-top: 32px; }
 .reviews-invitation p { margin-top: 8px; font-size: 14px; color: color-mix(in oklch, var(--cocoa-foreground) 80%, var(--cocoa)); }
 .review-action { background: var(--gold); color: var(--cocoa); border-radius: 999px; }
