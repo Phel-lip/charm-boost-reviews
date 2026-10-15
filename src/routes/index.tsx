@@ -165,7 +165,7 @@ function BeforeAfter() {
 }
 
 const FAQ = [
-  ["Quais serviços o Doce Charme oferece?", "Segundo o perfil do salão: cabelos (incluindo mechas, mega hair e tratamentos capilares), unhas em geral, sobrancelha e depilação, cílios e pilates. Para saber mais sobre cada um, fale pelo WhatsApp."],
+  ["Quais serviços o Doce Charme oferece?", "Cabelos (incluindo mechas, mega hair e tratamentos capilares), unhas em geral, sobrancelha e depilação, cílios e pilates. Para saber mais sobre cada um, fale pelo WhatsApp."],
   ["Como funciona a manutenção do mega hair?", "Conforme publicado pelo salão, a manutenção inclui a retirada das mechas antigas, os tratamentos pré-química necessários, a renovação das mechas e a nova colocação. Valores e tempo são combinados com o salão."],
   ["Como funciona a solicitação de horário?", "Você escolhe o serviço e, se quiser, uma data, um período e uma observação. No final, o WhatsApp abre com a mensagem pronta — o envio é feito por você."],
   ["O horário já fica confirmado?", "Ainda não. É uma solicitação: o salão confere a agenda e confirma a disponibilidade com você pelo WhatsApp."],
