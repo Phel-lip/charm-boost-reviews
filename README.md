@@ -1,7 +1,7 @@
 # Charm Boost Reviews
 
 continue o projeto de onde está por favor, apenas preciso que corriga a sessão de avaliações + avaliar no google pro salão atual: https://www.instagram.com/docecharmecentroestetico/ referencia: https://salaolovebeauty.convertstudio.com.br/ (mantenha tudo igual, só quero que conclua a sessão avaliações por enquanto).
-
+.
 This project was built with [Lovable](https://lovable.dev).
 
 **Live app**: https://charm-boost-reviews.lovable.app
