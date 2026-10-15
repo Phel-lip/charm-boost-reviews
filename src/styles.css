@@ -197,6 +197,25 @@
 @media (max-width: 639px) { .services-section { padding: 56px 0; } .services-heading { flex-direction: column; align-items: flex-start; gap: 20px; margin-bottom: 28px; } .services-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; } .services-assistance { flex-wrap: wrap; text-align: center; } .service-photo-link { aspect-ratio: 1; } .service-card-body { padding: 20px; } }
 @media (prefers-reduced-motion: reduce) { .service-card img { transition: none; } }
 
-/* Reviews preview (demo content) */
-.review-card { display: flex; flex-direction: column; gap: 14px; padding: 26px; border-radius: 20px; background: var(--card); border: 1px dashed color-mix(in oklch, var(--primary) 35%, var(--border)); }
-.demo-badge { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; background: var(--secondary); color: var(--primary); padding: 4px 10px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+/* Reviews retain the salon's existing cocoa and gold palette. */
+.reviews-section { background: var(--cocoa); color: var(--cocoa-foreground); padding: 96px 0; }
+.reviews-heading { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 40px; }
+.reviews-heading h2 { max-width: 640px; }
+.reviews-source-link { display: inline-flex; align-items: center; gap: 6px; color: var(--gold); font-size: 14px; white-space: nowrap; }
+.reviews-source-link svg { width: 16px; height: 16px; }
+.reviews-source-link:hover, .reviews-attribution a:hover { text-decoration: underline; }
+.reviews-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.salon-review { display: flex; flex-direction: column; padding: 28px; border-radius: 8px; border: 1px solid color-mix(in oklch, var(--cocoa-foreground) 18%, var(--cocoa)); background: color-mix(in oklch, var(--cocoa-foreground) 5%, var(--cocoa)); }
+.review-quote-icon { color: var(--gold); height: 26px; width: 26px; margin-bottom: 20px; }
+.salon-review blockquote { flex: 1; font-size: 17px; line-height: 1.75; overflow-wrap: anywhere; }
+.salon-review figcaption { display: grid; gap: 6px; border-top: 1px solid color-mix(in oklch, var(--cocoa-foreground) 15%, var(--cocoa)); margin-top: 24px; padding-top: 18px; }
+.review-category { color: var(--gold); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; }
+.review-origin, .reviews-attribution { color: color-mix(in oklch, var(--cocoa-foreground) 70%, var(--cocoa)); font-size: 12px; }
+.reviews-attribution { margin-top: 20px; line-height: 1.7; }
+.reviews-attribution a { text-decoration: underline; text-underline-offset: 3px; }
+.reviews-invitation { display: flex; align-items: center; justify-content: space-between; gap: 28px; border-top: 1px solid color-mix(in oklch, var(--cocoa-foreground) 20%, var(--cocoa)); margin-top: 40px; padding-top: 32px; }
+.reviews-invitation p { margin-top: 8px; font-size: 14px; color: color-mix(in oklch, var(--cocoa-foreground) 80%, var(--cocoa)); }
+.review-action { background: var(--gold); color: var(--cocoa); border-radius: 999px; }
+.review-action:hover { background: color-mix(in oklch, var(--gold) 85%, var(--card)); }
+.review-control { height: auto; min-height: 48px; padding: 12px 24px; white-space: normal; text-align: center; flex-shrink: 0; }
+@media (max-width: 767px) { .reviews-section { padding: 64px 0; } .reviews-heading { align-items: start; flex-direction: column; gap: 20px; margin-bottom: 28px; } .reviews-grid { grid-template-columns: minmax(0, 1fr); } .reviews-invitation { flex-direction: column; align-items: start; } .review-control { width: 100%; } }
