@@ -1,21 +1,12 @@
-import heroAsset from "@/assets/dc-espaco.jpg";
-const hero = hero;
-import mechasMegaAsset from "@/assets/svc-mechas-mega.jpg";
-const mechasMega = mechasMega;
-import tratamentoAsset from "@/assets/svc-tratamento.jpg";
-const tratamento = tratamento;
-import ozonioAsset from "@/assets/svc-ozonio.jpg";
-const ozonio = ozonio;
-import terapiaAsset from "@/assets/svc-terapia-capilar.jpg";
-const terapia = terapia;
-import penteadoAsset from "@/assets/svc-penteado.jpg";
-const penteado = penteado;
-import unhasAmeixaAsset from "@/assets/svc-unhas-ameixa.jpg";
-const unhasAmeixa = unhasAmeixa;
-import unhasMarromAsset from "@/assets/svc-unhas-marrom.jpg";
-const unhasMarrom = unhasMarrom;
-import unhasNudeAsset from "@/assets/svc-unhas-nude.jpg";
-const unhasNude = unhasNude;
+import hero from "@/assets/dc-espaco.jpg";
+import mechasMega from "@/assets/svc-mechas-mega.jpg";
+import tratamento from "@/assets/svc-tratamento.jpg";
+import ozonio from "@/assets/svc-ozonio.jpg";
+import terapia from "@/assets/svc-terapia-capilar.jpg";
+import penteado from "@/assets/svc-penteado.jpg";
+import unhasAmeixa from "@/assets/svc-unhas-ameixa.jpg";
+import unhasMarrom from "@/assets/svc-unhas-marrom.jpg";
+import unhasNude from "@/assets/svc-unhas-nude.jpg";
 
 // Single source of truth for salon details.
 // Name, Instagram, bio services: official Instagram. City + phone: public business listings
