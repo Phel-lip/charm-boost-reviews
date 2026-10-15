@@ -1,11 +1,47 @@
 {
   "source": "code-archive",
   "capabilities": [
-    {"capability":"code and routes","source":"uploaded TanStack Start archive","outcome":"preserve existing home page and change reviews only","status":"pending","next_action":"restore inspected frontend source"},
-    {"capability":"assets","source":"ten bundled salon and example photos","outcome":"preserve through asset pointers","status":"pending","next_action":"upload assets"},
-    {"capability":"booking","source":"WhatsApp request links","outcome":"preserve existing flow","status":"pending","next_action":"verify request summary"},
-    {"capability":"schema, records, auth, authorization, storage, providers, endpoints, callbacks, webhooks, schedules, secrets","source":"source inspection found no data store or server integrations; booking uses external WhatsApp links","outcome":"not applicable","status":"not_applicable","next_action":null},
-    {"capability":"reviews","source":"existing placeholder section","outcome":"use source-backed Doce Charme reviews and Google review link","status":"pending","next_action":"confirm source and implement"},
-    {"capability":"cutover","source":"unpublished preview","outcome":"no publishing requested","status":"not_applicable","next_action":null}
+    {
+      "capability": "code and routes",
+      "source": "uploaded TanStack Start archive",
+      "outcome": "preserve existing home page and change reviews only",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "assets",
+      "source": "ten bundled salon and example photos",
+      "outcome": "preserve through asset pointers",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "booking",
+      "source": "WhatsApp request links",
+      "outcome": "preserve existing flow",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "schema, records, auth, authorization, storage, providers, endpoints, callbacks, webhooks, schedules, secrets",
+      "source": "source inspection found no data store or server integrations; booking uses external WhatsApp links",
+      "outcome": "not applicable",
+      "status": "not_applicable",
+      "next_action": null
+    },
+    {
+      "capability": "reviews",
+      "source": "existing placeholder section",
+      "outcome": "use source-backed Doce Charme reviews and Google review link",
+      "status": "implemented",
+      "next_action": "Direct review form URL needs official Google Business share link; search link opens correctly but Google blocked automated destination verification with CAPTCHA."
+    },
+    {
+      "capability": "cutover",
+      "source": "unpublished preview",
+      "outcome": "no publishing requested",
+      "status": "not_applicable",
+      "next_action": null
+    }
   ]
 }
