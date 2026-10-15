@@ -16,7 +16,7 @@ export function ServicesSection({ onBook }: { onBook: (id: string) => void }) {
             <h2 className="font-display text-4xl leading-tight sm:text-5xl">Seu próximo cuidado,<br /><em className="text-brand">do seu jeito.</em></h2>
           </div>
           <div className="services-intro">
-            <p className="text-muted-foreground">Cabelos, tratamentos e unhas. Fotos reais publicadas no Instagram do salão.</p>
+            <p className="text-muted-foreground">Cabelos, tratamentos e unhas.</p>
             <a href={SALON.instagram} target="_blank" rel="noopener noreferrer" className="services-profile"><Instagram className="h-4 w-4" />{SALON.instagramHandle}<ExternalLink className="h-3 w-3" /></a>
           </div>
         </div>
