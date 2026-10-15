@@ -1,21 +1,12 @@
-import heroAsset from "@/assets/dc-espaco.jpg.asset.json";
-const hero = heroAsset.url;
-import mechasMegaAsset from "@/assets/svc-mechas-mega.jpg.asset.json";
-const mechasMega = mechasMegaAsset.url;
-import tratamentoAsset from "@/assets/svc-tratamento.jpg.asset.json";
-const tratamento = tratamentoAsset.url;
-import ozonioAsset from "@/assets/svc-ozonio.jpg.asset.json";
-const ozonio = ozonioAsset.url;
-import terapiaAsset from "@/assets/svc-terapia-capilar.jpg.asset.json";
-const terapia = terapiaAsset.url;
-import penteadoAsset from "@/assets/svc-penteado.jpg.asset.json";
-const penteado = penteadoAsset.url;
-import unhasAmeixaAsset from "@/assets/svc-unhas-ameixa.jpg.asset.json";
-const unhasAmeixa = unhasAmeixaAsset.url;
-import unhasMarromAsset from "@/assets/svc-unhas-marrom.jpg.asset.json";
-const unhasMarrom = unhasMarromAsset.url;
-import unhasNudeAsset from "@/assets/svc-unhas-nude.jpg.asset.json";
-const unhasNude = unhasNudeAsset.url;
+import hero from "@/assets/dc-espaco.jpg";
+import mechasMega from "@/assets/svc-mechas-mega.jpg";
+import tratamento from "@/assets/svc-tratamento.jpg";
+import ozonio from "@/assets/svc-ozonio.jpg";
+import terapia from "@/assets/svc-terapia-capilar.jpg";
+import penteado from "@/assets/svc-penteado.jpg";
+import unhasAmeixa from "@/assets/svc-unhas-ameixa.jpg";
+import unhasMarrom from "@/assets/svc-unhas-marrom.jpg";
+import unhasNude from "@/assets/svc-unhas-nude.jpg";
 
 // Single source of truth for salon details.
 // Name, Instagram, bio services: official Instagram. City + phone: public business listings

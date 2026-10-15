@@ -5,10 +5,8 @@ import { SALON, MARQUEE_ITEMS } from "@/lib/salon";
 import { BookingModal } from "@/components/BookingModal";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ReviewsSection } from "@/components/ReviewsSection";
-import beforeAsset from "@/assets/hair-before.png.asset.json";
-const before = beforeAsset.url;
-import afterAsset from "@/assets/hair-after.png.asset.json";
-const after = afterAsset.url;
+import before from "@/assets/hair-before.png";
+import after from "@/assets/hair-after.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
