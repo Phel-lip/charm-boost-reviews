@@ -147,7 +147,7 @@ function BeforeAfter() {
   return (
     <section id="antes-depois" className="scroll-mt-20 py-16 md:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
-        <SectionTitle eyebrow="Antes e depois" title={<>Fios com mais brilho, <em className="text-brand">maciez e movimento.</em></>} sub="Arraste para comparar. Imagens ilustrativas de exemplo — não são trabalho do salão. Na versão final, entram fotos reais de clientes Doce Charme." />
+        <SectionTitle eyebrow="Antes e depois" title={<>Fios com mais brilho, <em className="text-brand">maciez e movimento.</em></>} sub="Um exemplo de transformação e o que as clientes falam depois — a prova que ajuda quem chega a decidir mais rápido." />
         <figure>
           <div className="relative aspect-square w-full select-none overflow-hidden rounded-3xl shadow-soft">
             <img src={after} alt="Depois" className="absolute inset-0 h-full w-full object-cover" />
@@ -159,7 +159,7 @@ function BeforeAfter() {
             <span className="absolute right-3 top-3 rounded-full bg-primary px-3 py-1 text-xs text-primary-foreground">Depois</span>
             <input type="range" min={0} max={100} value={pos} onChange={(e) => setPos(+e.target.value)} aria-label="Comparar antes e depois" className="absolute inset-0 h-full w-full cursor-ew-resize touch-pan-y opacity-0" />
           </div>
-          <figcaption className="mt-3 text-center text-xs text-muted-foreground">Imagens ilustrativas · exemplo de layout</figcaption>
+          <figcaption className="mt-3 text-center text-xs text-muted-foreground">Arraste para comparar</figcaption>
         </figure>
       </div>
     </section>
