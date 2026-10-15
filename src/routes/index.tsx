@@ -4,6 +4,7 @@ import { ArrowRight, MapPin, Instagram, ChevronDown, Menu, X, ExternalLink, Mess
 import { SALON, MARQUEE_ITEMS } from "@/lib/salon";
 import { BookingModal } from "@/components/BookingModal";
 import { ServicesSection } from "@/components/ServicesSection";
+import { ReviewsSection } from "@/components/ReviewsSection";
 import beforeAsset from "@/assets/hair-before.png.asset.json";
 const before = beforeAsset.url;
 import afterAsset from "@/assets/hair-after.png.asset.json";
@@ -37,7 +38,7 @@ function Index() {
       <ServiceMarquee />
       <ServicesSection onBook={book} />
       <BeforeAfter />
-      <Reviews />
+      <ReviewsSection />
       <Faq />
       <Footer />
       {modal.open && <BookingModal open initialService={modal.service} onClose={close} />}
@@ -188,36 +189,6 @@ function Faq() {
             </div>
           ))}
         </div>
-      </div>
-    </section>
-  );
-}
-
-const REVIEW_SLOTS = ["Cabelos", "Tratamentos", "Unhas"];
-
-function Reviews() {
-  return (
-    <section id="avaliacoes" className="scroll-mt-20 bg-cocoa py-16 text-cocoa-foreground md:py-24">
-      <div className="mx-auto max-w-6xl px-5">
-        <div className="mb-10 max-w-xl">
-          <p className="mb-3 text-xs uppercase tracking-[0.25em] text-gold">Avaliações</p>
-          <h2 className="font-display text-4xl leading-tight sm:text-5xl">O que as clientes <em>vão contar.</em></h2>
-          <p className="mt-3 text-sm opacity-75">Prévia de layout: aqui entrarão avaliações reais das clientes, com nome e origem, na versão final.</p>
-        </div>
-        <div className="grid gap-5 md:grid-cols-3">
-          {REVIEW_SLOTS.map((tag) => (
-            <figure key={tag} className="rounded-3xl border border-dashed border-cocoa-foreground/30 p-6">
-              <span className="inline-block rounded-full border border-gold/50 px-3 py-1 text-[11px] uppercase tracking-wider text-gold">Exemplo de layout</span>
-              <div className="mt-5 space-y-2" aria-hidden="true">
-                <div className="h-3 w-full rounded-full bg-cocoa-foreground/15" />
-                <div className="h-3 w-11/12 rounded-full bg-cocoa-foreground/15" />
-                <div className="h-3 w-3/4 rounded-full bg-cocoa-foreground/15" />
-              </div>
-              <figcaption className="mt-5 text-xs uppercase tracking-wider opacity-60">Espaço para avaliação real · {tag}</figcaption>
-            </figure>
-          ))}
-        </div>
-        <p className="mt-6 text-xs opacity-60">Estes cartões não são avaliações autênticas; nenhuma nota ou depoimento foi inventado.</p>
       </div>
     </section>
   );
